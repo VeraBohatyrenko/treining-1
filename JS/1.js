@@ -376,3 +376,16 @@
 
 //   console.log('Нечетное i: ', i); // 1, 3, 5, 7, 9
 // }
+
+// let base = prompt("Введите число");
+// base = Number(base);
+// console.log(base);
+
+// const degree = Number(prompt("введите степень"));
+// console.log(degree);
+// const result = Math.pow(base, degree); //Или (base ** degree)
+// console.log(result);
+
+//генерация чисел от min до max
+
+//
