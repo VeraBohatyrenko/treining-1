@@ -35,3 +35,47 @@
 // console.log(a.length);
 // a.pop();
 // console.log("pop", a);
+
+// const messages = [1, 2, 3, 4, 5];
+// let result = 0;
+// for (let i = 0; i < messages.length; i += 1) {
+//   result += messages[i];
+//   console.log("result", result);
+//   console.log(messages[i]);
+// }
+// console.log(result);
+
+// 1. Перебрать массив
+// const numbers = [4, 25, 87, 88, 34, 268];
+// let total = 0;
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] % 2 === 0) {
+//     total += numbers[i];
+//   }
+// }
+// console.log(total);
+
+// 2. Создать переменную total
+// 3.Выбрать и Сложить четные числа
+
+const numbers = ["dfsdfgfg", "hjhkuhuk", "thrtjuyi", "sdfdhyui", "yuyoij"];
+const newNumbers = "thrtjuyi";
+let message = "Is not correct";
+
+// for (i = 0; i < numbers.length; i += 1) {
+//   // console.log(numbers[i]);
+//   if (numbers[i] === newNumbers) {
+//     message = "This number is correct";
+//     break;
+//     // console.log(message);
+//   }
+//   message = "Is not correct";
+// }
+// console.log(message);
+
+for (let number of numbers) {
+  if (number === newNumbers) {
+    message = "This number is correct";
+    break;
+  }
+}
