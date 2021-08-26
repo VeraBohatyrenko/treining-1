@@ -58,9 +58,9 @@
 // 2. Создать переменную total
 // 3.Выбрать и Сложить четные числа
 
-const numbers = ["dfsdfgfg", "hjhkuhuk", "thrtjuyi", "sdfdhyui", "yuyoij"];
-const newNumbers = "thrtjuyi";
-let message = "Is not correct";
+// const numbers = ["dfsdfgfg", "hjhkuhuk", "thrtjuyi", "sdfdhyui", "yuyoij"];
+// const newNumbers = "thrtjuyi";
+// let message = "Is not correct";
 
 // for (i = 0; i < numbers.length; i += 1) {
 //   // console.log(numbers[i]);
@@ -73,9 +73,42 @@ let message = "Is not correct";
 // }
 // console.log(message);
 
-for (let number of numbers) {
-  if (number === newNumbers) {
-    message = "This number is correct";
-    break;
-  }
-}
+// for (let number of numbers) {
+//   if (number === newNumbers) {
+//     message = "This number is correct";
+//     break;
+//   }
+// }
+//
+// Найти самое маленькое число
+// const numbers = [32, 56, 7, 4, 98];
+// let minNumber = numbers[0];
+// // console.log(minNumber);
+
+// for (const number of numbers) {
+//   if (number < minNumber) {
+//     minNumber = number;
+//   }
+// }
+// console.log(minNumber);
+
+// Найти самое большое число
+// const numbers = [32, 56, 7, 4, 98];
+// let maxNumber = numbers[0];
+// // console.log(minNumber);
+
+// for (const number of numbers) {
+//   if (number > maxNumber) {
+//     maxNumber = number;
+//   }
+// }
+// console.log(maxNumber);
+
+// Использование метода "Join"
+const friends = ["Alex", "Mango", "Kiwi", "Jon"];
+let allFriends = friends.join(", ");
+console.log(allFriends);
+
+// for (friend of friends) {
+//   console.log(friend);
+// }
