@@ -105,10 +105,19 @@
 // console.log(maxNumber);
 
 // Использование метода "Join"
-const friends = ["Alex", "Mango", "Kiwi", "Jon"];
-let allFriends = friends.join(", ");
-console.log(allFriends);
+// const friends = ["Alex", "Mango", "Kiwi", "Jon"];
+// let allFriends = friends.join(", ");
+// console.log(allFriends);
 
-// for (friend of friends) {
-//   console.log(friend);
+// const string = "JavaScript";
+// // const array = string.split("");
+// // console.log(array);
+// let invertedString = "";
+
+// for (element of string) {
+//   invertedString +=
+//     element === element.toUpperCase()
+//       ? element.toLowerCase()
+//       : element.toUpperCase();
 // }
+// console.log(invertedString);
