@@ -121,3 +121,123 @@
 //       : element.toUpperCase();
 // }
 // console.log(invertedString);
+//
+// #1
+// const title = "Ворота Распашные на участок";
+// const normalize = title.toLowerCase().split(" ").join("-");
+
+// console.log(normalize);
+
+// console.log(normalize);
+
+// #2
+// const array = normalize.split(" ");
+// console.log(array);
+
+// const newTitle = array.join("-");
+// console.log(newTitle);
+
+// const numbers = [34, 76, 7, 90, 25];
+// const newNumbers = [54, 65, 5, 30, 2];
+// let total = 0;
+
+// const allArray = numbers.concat(newNumbers);
+// for (number of allArray) {
+//   total += number;
+// }
+// console.log(total);
+
+// const fn = function (a) {
+//   console.log(a);
+//   // return a + 3;
+// };
+// console.log(fn(5));
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Change code below this line
+// if (totalSpent >= 50000) {
+// discount = GOLD_DISCOUNT;
+// } else if (totalSpent >= 20000) {
+// discount = SILVER_DISCOUNT;
+// } else if (totalSpent >= 5000) {
+// discount = BRONZE_DISCOUNT;
+// } else (totalSpent < 5000) {
+// discount = BASE_DISCOUNT;
+// }
+//   // Change code above this line
+//   return discount;
+// }
+
+// function getShippingCost(country) {
+//   let message;
+//   // Change code below this line
+//   switch (country) {
+//     case country:
+//       message = `Shipping to ${country} will cost ${price} credits`;
+//       break;
+
+//     default:
+//       message = "Sorry, there is no delivery to your country";
+//   }
+//   // Change code above this line
+//   return message;
+// }
+// console.log(message);
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+
+// // Change code above this line
+// console.log(lastElement);
+// console.log(firstElement);
+
+// function getSubstring(string, length) {
+//   const substring = (0, string.length); // Change this line
+
+//   return substring;
+// }
+// console.log(getSubstring("Hello world", 3));
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length <= maxLength) {
+//     result = message;
+//   } else {
+//     result = message.slice(0, maxLength) + "...";
+//   }
+//   /// Change code above this line
+//   return result;
+// }
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   const messageSlice = message.slice(0, maxLength);
+//   // Change code below this line
+//   if (message.length <= maxLength) {
+//     result = message;
+//   } else {
+//     result = `${messageSlice}...`;
+//   }
+//   /// Change code above this line
+//   return result;
+// }
+
+function formatMessage(message, maxLength) {
+  let result =
+    message.length <= maxLength ? message : `${message.slice(0, maxLength)}...`;
+
+  return result;
+}
+
+console.log(formatMessage("Curabitur ligula sapien", 11));
+console.log(formatMessage("Curabitur ligula sapien", 23));
