@@ -232,12 +232,33 @@
 //   return result;
 // }
 
-function formatMessage(message, maxLength) {
-  let result =
-    message.length <= maxLength ? message : `${message.slice(0, maxLength)}...`;
+// function formatMessage(message, maxLength) {
+//   let result =
+//     message.length <= maxLength ? message : `${message.slice(0, maxLength)}...`;
 
-  return result;
-}
+//   return result;
+// }
 
-console.log(formatMessage("Curabitur ligula sapien", 11));
-console.log(formatMessage("Curabitur ligula sapien", 23));
+// console.log(formatMessage("Curabitur ligula sapien", 11));
+// console.log(formatMessage("Curabitur ligula sapien", 23));
+
+// function XO(str) {
+//   let arrX = [];
+//   let arrO = [];
+
+//   for (const el of str.toLowerCase().split("")) {
+//     if (el === "x") {
+//       arrX.push(el);
+//     } else if (el === "o") {
+//       arrO.push(el);
+//     }
+//   }
+
+//   return arrX.length === arrO.length;
+// }
+
+// console.log(XO("ooxx"));
+// console.log(XO("xooxx"));
+// console.log(XO("ooxXm"));
+// console.log(XO("zpzpzpp"));
+// console.log(XO("zzoo"));
