@@ -262,3 +262,76 @@
 // console.log(XO("ooxXm"));
 // console.log(XO("zpzpzpp"));
 // console.log(XO("zzoo"));
+
+//Вариант 1
+
+// function a(arr1, arr2) {
+//   //  return arr1.sort().toString() === arr2.sort().toString();
+//   if (arr1.length !== arr2.length) return false;
+//   arr1.sort();
+//   arr2.sort();
+
+//   for (let i = 0; i < arr1.length; i += 1) {
+//     if (arr1[i] !== arr2[i]) return false;
+//   }
+//   return true;
+// }
+
+// const arr1 = [1, 2, 2, 3, 4];
+// const arr2 = [2, 1, 2, 4, 3];
+// console.log(a(arr1, arr2));
+
+//Вариант - 2
+// function a(arr1, arr2) {
+//   return JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
+
+// }
+
+// const arr1 = [1, 2, 2, 3, 4];
+// const arr2 = [2, 1, 2, 4, 3];
+// console.log(a(arr1, arr2));
+
+// function arraySum(arr) {
+//   const b = arr.toString().split(",");
+//   let sum = 0;
+//   console.log(b);
+
+// for (let i = 0; i < b.length; i += 1) {
+//   // console.log(Number(b[i]));
+//   console.log(+b[i]);
+//   sum += Number.isNaN(Number(b[i])) ? 0 : Number(b[i]);
+// }
+// //Или
+
+//   for (let el of b) {
+//     sum += Number.isNaN(+el) ? 0 : +el;
+//   }
+
+//   return sum;
+// }
+// console.log(arraySum([1, 2, 2, 3, 4]));
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// // Change code below this line
+// const firstElement = [0];
+// fruits[1];
+// fruits[3];
+
+// function getExtremeElements(array) {
+//   // Change code below this line
+//   const firstLastElement = [];
+//   firstLastElement.push(array[0], array[array.length - 1]);
+//   // firstLastElement.push(array[array.length - 1]);
+//   return firstLastElement;
+//   // Change code above this line
+// }
+// console.log(getExtremeElements([1, 2, 3, 4, 5]));
+
+function calculateEngravingPrice(message, pricePerWord) {
+  const stringArray = message.split(" ");
+
+  return stringArray.length * pricePerWord;
+}
+
+console.log(calculateEngravingPrice("JavaScript is ftr in my blood", 10));
