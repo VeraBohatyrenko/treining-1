@@ -328,10 +328,49 @@
 // }
 // console.log(getExtremeElements([1, 2, 3, 4, 5]));
 
-function calculateEngravingPrice(message, pricePerWord) {
-  const stringArray = message.split(" ");
+// function calculateEngravingPrice(message, pricePerWord) {
+//   const stringArray = message.split(" ");
 
-  return stringArray.length * pricePerWord;
-}
+//   return stringArray.length * pricePerWord;
+// }
 
-console.log(calculateEngravingPrice("JavaScript is ftr in my blood", 10));
+// console.log(calculateEngravingPrice("JavaScript is ftr in my blood", 10));
+
+// function slugify(title) {
+//   // Change code below this line
+//   const slug = title.toLowerCase().split(" ").join("-");
+//   return slug;
+//   // Change code above this line
+// }
+
+// console.log(slugify("Arrays for begginers"));
+
+// function includes(array, value) {
+//   // Change code below this line
+//   for (const element of array) {
+//     return element === value;
+//     // if (element === value) {
+//     //   return true;
+//     // }
+//     // return false;
+//   }
+
+//   // Change code above this line
+// }
+
+// console.log(
+//   includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter")
+// );
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//   // Change code below this line
+//   const newArray = firstArray.concat(secondArray);
+//   if (newArray.length > maxLength) {
+//     return newArray.slice(0, maxLength);
+//   }
+//   return newArray;
+
+//   // Change code above this line
+// }
+
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
