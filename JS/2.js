@@ -374,3 +374,78 @@
 // }
 
 // console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+
+// function calculateTotal(number) {
+//   // Change code below this line
+//   let total = 0;
+
+//   for (let i = 0; i <= number; i += 2) {
+//     total += i;
+//   }
+//   return total;
+//   // Change code above this line
+// }
+
+// console.log(calculateTotal(7));
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (i = 0; i <= order.length - 1; i += 1) {
+//     console.log(order.length);
+//     total += order[i];
+//   }
+//   // Change code above this line
+//   return total;
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+// function findLongestWord(string) {
+//   // Change code below this line
+
+//   const newString = string.split(" ");
+//   let maxWord = newString[0];
+
+//   for (const el of newString) {
+//     if (el.length > maxWord.length) {
+//       maxWord = el;
+//     }
+//   }
+//   return maxWord;
+//   // Change code above this line
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+//   for (let i = min; i <= max; i += 1) {
+//     numbers.push(i);
+//   }
+//   // Change code above this line
+//   return numbers;
+// }
+
+// console.log(createArrayOfNumbers(1, 3));
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const newArray = [];
+//   for (i = 0; i <= numbers.length - 1; i += 1) {}
+
+//   // Change code above this line
+// }
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+function getCommonElements(array1, array2) {
+  // Change code below this line
+  const newArray = [];
+  for (const el of array1) {
+    array2.includes(el);
+  }
+
+  return newArray;
+
+  // Change code above this line
+}
